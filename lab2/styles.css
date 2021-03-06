@@ -1,0 +1,167 @@
+:root {
+    --dark-background: #181818;
+}
+
+body {
+    background: var(--dark-background);
+    font-family: "Graphik";
+    /* overflow-x: hidden; */
+}
+
+flexWrapper {
+    display: flex;
+    width: 100vw;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 30px;
+}
+
+flexWrapperBut {
+    display: flex;
+    width: 100vw;
+    flex-direction: row;
+    justify-content: center;
+    align-items: baseline;
+}
+
+flexWrapperDash {
+    display: flex;
+    position: relative;
+    align-items: center;
+    width: 100vw;
+}
+
+flexBox {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 0;
+    margin: 100px;
+}
+
+flexBoxRow {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 100px 20px;
+}
+
+flexBoxSmallRow {
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    margin: 45px 0 20px 0;
+}
+
+
+flexBoxColumn {
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+}
+
+flexColumn {
+    width: 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    margin: 20px 0;
+}
+
+
+
+.but1Class {
+    padding: 7px 25px;
+    text-align: center;
+    background-color: var(--dark-background);
+    color: white;
+    border: 0; 
+    box-shadow: 0;
+    font-size: 17px;
+    width: 136px;
+    height:65px
+}
+
+.but2Class {
+    font-size: 17px;
+    padding: 7px 25px;
+    text-align: center;
+    background-color: var(--dark-background);
+    color: white;
+    border: 2px solid white; 
+    width: 136px;
+    height: 65px;
+}
+
+button, 
+button:active, 
+button:focus {
+    outline: none;
+}
+
+.sloganClass {
+    color: white;
+    margin: 100px 0 37px 0;
+    text-align: center;
+    font-style: normal;
+    font-size: 80px;
+
+}
+
+.sloganSmallClass {
+    color: white;
+    margin: 0;
+    text-align: center;
+    font-style: normal;
+    font-size: 20px;
+
+}
+
+.dashboardClass {
+    background-size: contain;
+    height: 840px;
+    background: url("../lab2/Icons/Dashboard.svg");
+    /* box-shadow: inset 0 -350px 350px #111111; */
+}
+
+.gradClass {
+    position: absolute;
+    background: linear-gradient(to bottom, #ffffff00, #000000);
+    width: 100%;
+    height: 350px;
+    margin-top: 442px;
+    left: 0;
+    right: 0;
+}
+
+.smallIconClass {
+    width: 25px;
+}
+
+.namePointClass {
+    color: white;
+    margin: 0;
+    text-align: left;
+    font-style: normal;
+    font-size: 20px;
+    margin: 0 10px;
+    width: 150px;
+}
+
+.textPointClass {
+    color: white;
+    margin: 0;
+    text-align: left;
+    font-style: normal;
+    font-size: 16px;
+    width: 248px;
+}
+
+@font-face {
+    font-family: "Graphik"; 
+    src: url("../lab2/Fonts/Graphik-Regular.ttf") ; 
+    font-style: normal; 
+    font-weight: normal; 
+
+    } 
