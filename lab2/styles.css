@@ -42,9 +42,25 @@ flexBox {
 
 flexBoxRow {
     display: flex;
+    position: relative;
     flex-direction: row;
     justify-content: center;
     margin: 100px 20px;
+}
+
+flexBoxRow2 {
+    display: flex;
+    position: relative;
+    flex-direction: row;
+    justify-content: center;
+    margin: 50px;
+}
+
+flexBoxRow3 {
+    display: flex;
+    position: relative;
+    flex-direction: row;
+    justify-content: space-around;
 }
 
 flexBoxSmallRow {
@@ -69,7 +85,25 @@ flexColumn {
     margin: 20px 0;
 }
 
+testimName {
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+}
 
+flexWrapperContainer {
+    display: flex;
+    justify-content: center;
+}
+
+
+flexContainer {
+    width: 1220px;
+    height: 370px;
+    background-color: #343434;
+    border-radius: 10px;
+    margin: 0;
+}
 
 .but1Class {
     padding: 7px 25px;
@@ -119,9 +153,10 @@ button:focus {
 }
 
 .dashboardClass {
-    background-size: contain;
+    position: relative;
+    width: 100%;
     height: 840px;
-    background: url("../lab2/Icons/Dashboard.svg");
+    /* background: url("../lab2/Icons/Dashboard.svg"); */
     /* box-shadow: inset 0 -350px 350px #111111; */
 }
 
@@ -129,7 +164,7 @@ button:focus {
     position: absolute;
     background: linear-gradient(to bottom, #ffffff00, #000000);
     width: 100%;
-    height: 350px;
+    height: 550px;
     margin-top: 442px;
     left: 0;
     right: 0;
@@ -156,6 +191,86 @@ button:focus {
     font-style: normal;
     font-size: 16px;
     width: 248px;
+}
+
+.blockClass {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 476px;
+    height: 624px;
+    margin: 0 15px;
+    padding: 40px 0;
+    border-radius: 10px;
+    background-color: white;
+}
+
+.boxName{
+    color: black;
+    text-align: center;
+    font-weight: bold;
+    font-size: 20px;
+    letter-spacing: 0.1px;
+}
+
+.boxTetxt {
+    width: 268px;
+    color: rgba(92, 92, 92, 1);
+    text-align: center;
+    font-size: 16px;
+    letter-spacing: 0.2px;
+}
+
+.galleryImg {
+    margin: 0 16px;
+    border-radius: 10px;
+}
+
+.iconBrand {
+    margin: 0 38px;
+}
+
+.testimClass {
+    border: 2px solid white;
+    border-radius: 10px;
+    margin: 10px;
+    padding: 40px 40px 40px 70px;
+    color: white;
+    width: 320px;
+}
+
+.avatarClass {
+    width: 50px;
+    height: 50px;
+}
+
+.avatarTextClass {
+    line-height: 24px;;
+    letter-spacing: 0.2px;
+    padding: 0 10px;
+    margin: 0 22px;
+    font-weight: bold;
+}
+
+.testimTestClass {
+    font-size: 16px;
+    line-height: 24px;;
+}
+
+.infBlockText {
+    width: 480px;
+    font-size: 52px;
+    margin: 78px 0 0 104px;
+    color: white;
+    line-height: 62px;
+}
+
+.mainLink {
+    color: white;
+}
+
+.link {
+    color: white;
 }
 
 @font-face {
