@@ -15,25 +15,3 @@ function getMinMax(str) {
 }
 
 module.exports = getMinMax;
-
-
-//     let arr_int = str.split(/[^-\d\.]/);
-//     let min_int = arr_int[0];
-//     let max_int = arr_int[0];
-//     for (let i=1; i<length(arr_int); i++)
-//     {
-//         if (arr_int[i] < min_int)
-//             min_int = arr_int[i];
-//         if (arr_int[i] > max_int)
-//             min_int = arr_int[i]; 
-//     }      
-            
-//     return {min: min_int, max: max_int};
-// }
-
-
-//const nums = str.replace(/\D+ | . | -/gi, ' ').split(' ').map((subStr) => (subStr.includes('.') ? parseFloat(subStr) : parseInt(subStr, 10)));
-  //  return {
-    //  min: Math.min(...nums),
-      //max: Math.max(...nums),
-   // };

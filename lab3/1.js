@@ -10,5 +10,3 @@ function capitalize(str) {
 }
 
 module.exports = capitalize;
-
-// && (str[i].charCodeAt(0) >= 192) && (str[i].charCodeAt(0) <= 255)
