@@ -8,7 +8,13 @@
  */
 
 function prettySum(arr) {
-    // code here
+   
+    var sum = arr.reduce((res, item, index) => {
+        if (index % 2 == 0) res += item;
+            { return res; }
+        }, 0);
+
+    return sum * arr[arr.length-1];
 }
 
 module.exports = prettySum;
