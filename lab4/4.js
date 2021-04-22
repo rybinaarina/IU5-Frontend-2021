@@ -17,7 +17,8 @@
 */
 
 function get1DArray(arr) {
-    //code here
+    return arr.reduce ((accum, item) => 
+        accum.concat (Array.isArray(item) ? get1DArray(item) : item), []);
 }
 
 module.exports = get1DArray;

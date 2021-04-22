@@ -8,7 +8,23 @@
  */
 
 function rle(str) {
-    //code here
+    let new_str = '';
+    let num = 0;
+
+    for (let i=0; i<str.length; i++)
+        if (str[i] == str [i+1])
+            num += 1;
+        else 
+        {
+            new_str += str[i];
+
+            if (num > 0)
+                new_str += num+1;
+
+            num = 0;
+        }
+        
+    return new_str;
 }
 
 module.exports = rle;

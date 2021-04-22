@@ -10,8 +10,23 @@
  */
 
 function checkBrackets(str) {
-    //code here
+   
+    let a = str[str.length-1];
+    for (i=str.length-1; i>=0; i--)
+    {
 
+        let b = str[i-1];
+        if ((a == "]") && ((b == "(") || (b == "<")))
+            return false;
+        if ((a == ")") && ((b == "[") || (b == "<")))
+            return false;
+        if ((a == ">") && ((b == "(") || (b == "[")))
+            return false;
+
+        a=b;
+
+    }
+    return true;
 }
 
 module.exports = checkBrackets;
